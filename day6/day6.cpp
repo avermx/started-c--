@@ -13,7 +13,7 @@ int main()
         
 
         }
-        for (int j =i ; j <=5; j++)
+        for (int j =1 ; j <=i; j++)
         {
            
             
