@@ -7,11 +7,11 @@ int main()
 {
     for (int i = 5; i >= 1; i--)
     {        
-          
+          cout<<"-";
         for (int s = i; s<=5; s++)
         {
        
-            cout<<" ";
+            cout<<"";
         
 
         }
