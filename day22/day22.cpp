@@ -10,6 +10,7 @@ cin>>n;
 
     for(int i = 1; i<=n; i++)
     {
+        int a = i-1;
         for(int k = 1; k<=n-i; k++)
         {
             cout<<" ";
@@ -19,7 +20,8 @@ cin>>n;
             cout<<j;
         }
         for(int b = 1; b<=i-1; b++){
-            cout<<b;
+            cout<<a;
+            a--;
         }
         cout<<endl;
     }
