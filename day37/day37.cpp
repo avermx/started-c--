@@ -54,18 +54,33 @@ int main()
     //   int Total =  sumEven - sumOdd;
     //   cout<<Total;
 
-    int arr[5] = {1, 2, 3, 4, 5};
-    int count = 0;
-    for (int i = 0; i <= 2; i++)
-    {
-        for (int j = 5; j >= 2; j--)
-        {
-            if (i + j == 6)
-            {
-                count++;
-            }
-        }
+    // int arr[5] = {1, 2, 3, 4, 5};
+    // int count = 0;
+    // for (int i = 0; i <= 2; i++)
+    // {
+    //     for (int j = 5; j >= 2; j--)
+    //     {
+    //         if (i + j == 6)
+    //         {
+    //             count++;
+    //         }
+    //     }
         
+    // }
+    // cout<<count;
+
+
+    int arr[5] = {1,2,3,4,5};
+
+    int sum = 0;
+    for(int i = 0; i<=4; i++){
+        for(int j = i+1; j<=4; j++){
+            if(arr[i]+arr[j] == 9){
+                sum = sum + 1;
+            }
+
+           
+        }
     }
-    cout<<count;
+    cout<<sum;
 }
